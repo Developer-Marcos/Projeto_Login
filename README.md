@@ -1,20 +1,28 @@
 # Projeto_Login
-<i><b>Projeto feito para praticar meus conhecimentos em Flask e TailwindCSS.</b></i>
+<i><b>Project created to practice my knowledge in Flask and TailwindCSS.</b></i>
 
-Para rodar o projeto na sua maquina:
+To run the project on your machine:
 
-- Tenha o framework Flask instalado
-- Clone o repositório
-- Execute o arquivo "projeto.py"
+Make sure you have the Flask framework installed
 
-Caminhos do projeto:
+- Clone the repository
+- Run the file "projeto.py"
+- Project routes:
 
-http://127.0.0.1:5000/login - <b>"/login"</b> é a Tela inicial do projeto.  <br>
-http://127.0.0.1:5000/mostrar_lista - <b>"/mostrar_lista"</b> é o lugar que aparece ao fazer login, mostra os nomes dos usuários já criados. <br>
-http://127.0.0.1:5000/criar - <b>"/criar"</b> é onde cria um novo usuário. <br>
+http://127.0.0.1:5000/login - <b>"/login"</b> is the project's initial screen. <br>
+http://127.0.0.1:5000/mostrar_lista - <b>"/mostrar_lista"</b> is the page displayed after logging in, showing the names of the already created users. <br>
+http://127.0.0.1:5000/criar - <b>"/criar"</b> is where a new user is created. <br>
 
-<i>É necessário estar logado para acessar a página <b>"/mostrar_lista"</b>.</i>
+<i>You must be logged in to access the <b>"/mostrar_lista"</b> page.</i>
 
-Inicialmente não terá usuários, então crie eles e experimente como o sistema funciona. Caso encontre algum problema, me avise pelo meu e-mail se possível.
+Initially, there will be no users, so create them and experiment with how the system works. If you encounter any issues, please let me know via email if possible.
 
-<b>Nota:</b> Nenhum desses usuários são reais, eles não são salvos em lugar algum e somem quando o arquivo "projeto.py" para de ser executado.
+<b>Note:</b> None of these users are real, they are not saved anywhere and will disappear when the "projeto.py" file stops running.
+
+
+
+
+
+
+
+
