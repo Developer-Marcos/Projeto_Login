@@ -1,5 +1,5 @@
 # Login_Project
-###### Portuguese "readme" files can be found in the project archives. | Arquivo readme em português pode ser achado nos arquivos do projeto
+###### English version
 
 <i><b>Project created to practice my knowledge in Flask and TailwindCSS.</b></i>
 
