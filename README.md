@@ -15,6 +15,6 @@ http://127.0.0.1:5000/criar - <b>"/criar"</b> é onde cria um novo usuário. <br
 
 <i>É necessário estar logado para acessar a página <b>"/mostrar_lista"</b>.</i>
 
-Inicialmente não terá usuários, então crie eles e experimente como o sistema funciona.
+Inicialmente não terá usuários, então crie eles e experimente como o sistema funciona. Caso encontre algum problema, me avise pelo meu e-mail se possível.
 
 <b>Nota:</b> Nenhum desses usuários são reais, eles não são salvos em lugar algum e somem quando o arquivo "projeto.py" para de ser executado.
