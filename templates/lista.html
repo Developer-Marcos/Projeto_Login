@@ -1,0 +1,32 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    
+    <table class="border m-3 rounded-lg border-separate">
+        <thead>
+            <tr>
+                <th class="px-4 pt-4">NOME DOS USUÁRIOS CADASTRADOS</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for usuario in users %}
+                {% if usuario == users[-1] %}
+                    <tr>
+                        <td class="text-center mb-6">{{ usuario.nome }}</td>
+                    </tr>
+                {% elif usuario == users[0] %}
+                    <tr>
+                        <td class="text-center mb-6"><hr class="border-gray-400 my-2">{{ usuario.nome }}<hr class="border-gray-400 my-2"></td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td class="text-center">{{ usuario.nome }}<hr class="border-gray-400 my-2"></td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <form action=" {{ url_for('logout') }} "><button class="p-1 mt-5 px-7 border border-gray-400 rounded-lg text-lg bg-transparent focus:outline-none focus:ring-2
+        focus:ring-gray-400 focus:ring-opacity-50 hover:ring-1 hover:ring-purple-300" type="submit">Sair</button> </form>
+
+{% endblock %}

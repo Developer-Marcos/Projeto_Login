@@ -1,0 +1,56 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+
+            <h2 class="text-center p-2 font-bold mb-2">BEM-VINDO(A)</h2>
+            <form method="post" action="{{ url_for('autenticar') }}" autocomplete="off">
+                <section>
+                    E-mail da sua conta:<br>
+                    <input class="w-full bg-transparent border border-gray-400 p-2 
+                    rounded text-base shadow focus:outline-none hover:ring-1 hover:ring-purple-300" 
+                    type="email" 
+                    name="email" 
+                    placeholder="seu@email.com" 
+                    required/>
+                </section>
+                <br>
+
+                <section class="pb-4 ">
+                    Senha de Acesso:<br>
+                    <input class="w-full bg-transparent border border-gray-400 p-2 
+                    rounded text-base shadow focus:outline-none hover:ring-1 hover:ring-purple-300"
+                    type="password" 
+                    name="senha" 
+                    placeholder="●●●●●●●" 
+                    required/>
+                </section>
+
+
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <ul>
+                            {% for message in messages %}
+                                    <div class="text-base text-center mb-3">
+                                        <li>{{ message }}</li>
+                                    </div>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endwith %}
+                
+                <p class="flex justify-center"><button class="p-1 px-7 mb-7 border border-gray-400 rounded-lg text-lg bg-transparent focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 hover:ring-1 hover:ring-purple-300" type="submit">Login</button>
+                </p>
+            </form>
+
+
+            <span class="text-xs">Este site não possui cadastros reais!</span>
+            <hr class="mt-1 border-t-2 border-gray-400">
+
+            <section class="flex text-base">
+                <form action="{{ url_for('criar') }}">
+                    <span>Não possui uma conta?</span>
+                    <button class="ml-4 px-4 py-2 font-bold hover:text-white " type="submit">Criar conta</button>
+                </form>
+            </section>
+
+{% endblock %}
