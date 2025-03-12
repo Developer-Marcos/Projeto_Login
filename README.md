@@ -23,7 +23,6 @@ Initially, there will be no users, so create them and experiment with how the sy
 
 <hr>
 
-# Login_Project
 ######  Versão português 
 
 <i><b>Projeto criado para praticar meus conhecimentos em Flask e TailwindCSS.</b></i>
