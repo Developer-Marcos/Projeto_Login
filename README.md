@@ -45,6 +45,10 @@ Inicialmente, não haverá usuários, então crie-os e experimente como o sistem
 
 <b>Nota:</b> Nenhum desses usuários é real, eles não são salvos em nenhum lugar e desaparecerão quando o arquivo "projeto.py" parar de ser executado.
 
+<hr>
+
+![video](Video_do_login.gif)
+
 
 
 
